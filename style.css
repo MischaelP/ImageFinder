@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&family=Raleway:wght@400;700&display=swap');
+
+
+body{
+    background-color: #02193b;
+}
+.titrePage{
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    
+}
+header {
+    background-color: #fceff9;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: column;
+   
+}
+#container {
+    width: 375px;
+    vertical-align: auto;
+}
+
+#inputDiv{
+    text-align: center;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.cards img {
+    max-width: 90%;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+h3 {
+    padding-top: 8px;
+    border-radius: 4px;
+    height: 30px;
+    background-color: white;
+    margin-left: 40px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}   
+.btn {
+    width: 80px;
+    height: 25px;
+    background-color: #02193b;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    
+}
